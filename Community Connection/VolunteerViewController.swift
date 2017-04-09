@@ -174,7 +174,7 @@ extension VolunteerViewController{
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
         if let location = locations.first{
-            let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+            let span = MKCoordinateSpan(latitudeDelta: 0.20, longitudeDelta: 0.20)
             let region = MKCoordinateRegion(center: location.coordinate, span: span)
             
             self.mapView.setRegion(region, animated: true)
