@@ -9,6 +9,8 @@
 
 //This is a beta made for a proof of concept test, some functionality will be implemented later
 
+//***** For location in simulator use: latitude: 35.925942 longitude: -79.038271*****
+
 import Firebase
 import FirebaseDatabase
 import UIKit
