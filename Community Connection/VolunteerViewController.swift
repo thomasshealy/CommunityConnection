@@ -17,6 +17,7 @@ import CoreLocation
  ****************************************************************************
  ****************************************************************************
  */
+//***** For location in simulator use: latitude: 35.925942 longitude: -79.038271*****
 class VolunteerViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     var searchController:UISearchController!
